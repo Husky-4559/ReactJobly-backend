@@ -1,8 +1,8 @@
-###ReactJobly Backend
+### ReactJobly Backend
 ReactJobly Backend is the server-side application for the ReactJobly project, a job board platform where users can search for companies and jobs, apply for positions, and manage their profiles. This backend provides a RESTful API that supports user authentication, job and company data retrieval, and application management.
 
 
-##Table of Contents: 
+## Table of Contents: 
 
 	•	Features
 	•	Installation
@@ -13,7 +13,7 @@ ReactJobly Backend is the server-side application for the ReactJobly project, a 
 	•	License
 	•	Acknowledgments
 
-##Features:
+## Features:
 	•	User Authentication and Authorization: Secure login and registration using JWT tokens.
 	•	CRUD Operations: Full create, read, update, and delete functionality for users, jobs, and companies.
 	•	Role-Based Access Control: Admin and regular user permissions.
@@ -21,7 +21,7 @@ ReactJobly Backend is the server-side application for the ReactJobly project, a 
 	•	Error Handling: Consistent error responses for client and server errors.
 	•	Secure Password Storage: Passwords are hashed using bcrypt.
 
-##Installation:
+## Installation:
 Follow these steps to set up the project locally:
   1. Clone the repository
   git clone https://github.com/Husky-4559/ReactJobly-backend.git
@@ -49,40 +49,40 @@ Follow these steps to set up the project locally:
      npm start
   The server should now be running at http://localhost:3001.
 
-##Usage
+## Usage
   	•	API Testing: Use tools like Postman or Insomnia to interact with the API endpoints.
 	  •	Frontend Integration: Connect this backend to the ReactJobly frontend to see the full application in action.
 
-##API Endpoints
+## API Endpoints
 
-  #Authentication: 
+  # Authentication: 
 	•	POST /auth/register - Register a new user.
 	•	POST /auth/token - Authenticate a user and receive a JWT token.
 
- #Users: 
+ # Users: 
 	•	GET /users - Get a list of all users (admin only).
 	•	GET /users/:username - Get details of a specific user.
 	•	PATCH /users/:username - Update a user’s information.
 	•	DELETE /users/:username - Delete a user.
 
-  #Companies:
+  # Companies:
   •	GET /companies - Get a list of all companies.
 	•	GET /companies/:handle - Get details of a specific company.
 	•	POST /companies - Create a new company (admin only).
 	•	PATCH /companies/:handle - Update a company’s information (admin only).
 	•	DELETE /companies/:handle - Delete a company (admin only).
 
-  #Jobs:
+  # Jobs:
 	•	GET /jobs - Get a list of all jobs.
 	•	GET /jobs/:id - Get details of a specific job.
 	•	POST /jobs - Create a new job (admin only).
 	•	PATCH /jobs/:id - Update a job’s information (admin only).
 	•	DELETE /jobs/:id - Delete a job (admin only).
 
- #Applications:
+ # Applications:
 	•	POST /users/:username/jobs/:id - Apply a user to a job.
 
- ##Technologies Used
+ ## Technologies Used
 	•	Node.js: JavaScript runtime environment.
 	•	Express.js: Web framework for Node.js.
 	•	PostgreSQL: Relational database management system.
@@ -91,7 +91,7 @@ Follow these steps to set up the project locally:
 	•	dotenv: Loads environment variables from a .env file.
 	•	Express Validator: For validating and sanitizing user input.
 
-##Contributing
+## Contributing
 Contributions are welcome! Please follow these steps:
 
 	1.	Fork the repository.
@@ -100,11 +100,11 @@ Contributions are welcome! Please follow these steps:
 	4.	Push to the branch: git push origin feature/YourFeature.
 	5.	Open a pull request.
 
-##License
+## License
 This project is licensed under the MIT License. 
 
 
-##Acknowledgments
+## Acknowledgments
 	•	Springboard: For project inspiration and guidance.
 	•	Express.js: For the robust web framework.
 	•	PostgreSQL: For the reliable database system.
